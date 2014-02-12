@@ -1,8 +1,8 @@
-# Paul's dotfiles
+# Art's dotfiles
+
+I forked Paul Irish's repo. He forked Mathias... and here we are.
 
 [mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. go read it.
-
-This repo is mostly for me but you're welcome to make suggestions. Mathias's is the project to fork.  I'm mostly catching up to him, @cowboy, and @gf3.
 
 ## install the necessary apps
 
@@ -41,18 +41,9 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ./.osx
 ```
 
-## Similar projects
-
-I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/master/.jshintrc) and [`.editorconfig`](http://editorconfig.org/) defined for all your projects.
-
-
-
-
-
 ## overview of files
 
 ####  Automatic config
-* `.ackrc` - for ack (better than grep)
 * `.vimrc`, `.vim` - vim config, obv.
 
 #### shell environment
@@ -81,7 +72,7 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 ## Installation
 
 ```bash
-git clone https://github.com/paulirish/dotfiles.git && cd dotfiles && ./sync.sh
+git clone https://github.com/arthurakay/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
 To update later on, just run the sync again.
