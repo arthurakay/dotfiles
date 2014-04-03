@@ -85,3 +85,6 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+
+# because I can never fucking remember this
+alias refresh="source ~/.bashrc"
