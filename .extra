@@ -1,1 +1,6 @@
 export PATH=/usr/local/bin:$PATH
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+#kill whatever Maven is doing
+unset M2_HOME
