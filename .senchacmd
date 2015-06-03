@@ -1,2 +1,2 @@
-export PATH=~/bin/Sencha/Cmd/5.1.0.26:$PATH
-export SENCHA_CMD_3_0_0="~/bin/Sencha/Cmd/5.1.0.26"
+export PATH=~/bin/Sencha/Cmd/6.0.0.154:$PATH
+export SENCHA_CMD_3_0_0="~/bin/Sencha/Cmd/6.0.0.154"
