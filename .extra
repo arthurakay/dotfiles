@@ -1,6 +1,12 @@
 export PATH=/usr/local/bin:$PATH
+export PATH=/Applications/install4j.app/Contents/Resources/app/bin/:$PATH
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 #kill whatever Maven is doing
 unset M2_HOME
+
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+export PATH=/usr/local/apache-maven-3.3.3/bin:$PATH
