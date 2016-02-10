@@ -23,3 +23,8 @@ function gitrebase(){
     git fetch upstream
     git rebase upstream/master
 }
+
+function gitdelete(){
+    git push origin --delete $1
+    git branch -D $1
+}
