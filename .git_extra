@@ -22,9 +22,11 @@ function gitexport(){
 function gitrebase(){
     git fetch upstream
     git rebase upstream/master
+    say -v "Hysterical" "Rebased to master"
 }
 
 function gitdelete(){
     git push origin --delete $1
     git branch -D $1
+    say -v "Bad News" "Deleted branch $1"
 }

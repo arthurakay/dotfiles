@@ -5,6 +5,8 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions,git_completion,git_e
 done
 unset file
 
+say -v "Whisper" "Welcome $(whoami)"
+
 # init rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
