@@ -1,0 +1,4 @@
+# because I can never fucking remember this
+function nginx_restart() {
+    nginx -s stop && nginx
+}
