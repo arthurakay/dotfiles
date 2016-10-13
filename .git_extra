@@ -25,6 +25,6 @@ function gitrebase_dev(){
 }
 
 function gitdelete(){
-    git push origin --delete $1
+    git push --no-verify origin --delete $1
     git branch -D $1
 }
