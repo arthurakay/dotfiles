@@ -113,3 +113,7 @@ function refresh() {
     source ~/.bashrc
     say -v Whisper "It has been done"
 }
+
+function fuckGoogleHangouts() {
+    sudo killall VDCAssistant
+}
