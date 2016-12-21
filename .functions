@@ -111,9 +111,13 @@ function extract() {
 # because I can never fucking remember this
 function refresh() {
     source ~/.bashrc
-    say -v Whisper "It has been done"
+    echo "It has been done."
 }
 
 function fuckGoogleHangouts() {
     sudo killall VDCAssistant
+}
+
+function findProcessUsingPort() {
+    lsof -i:$1
 }
