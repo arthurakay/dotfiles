@@ -1,0 +1,8 @@
+function kali_nikto() {
+    if [ -z "$1" ] || [ -z "$2" ]
+      then
+        echo "Valid syntax: kali_nikto https://www.akawebdesign.com www_akawebdesign_com (outputs report named www_akawebdesign_com.html)"
+    fi
+
+    nikto -h $1 -Display V -F htm -output $2.html
+}

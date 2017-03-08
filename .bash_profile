@@ -1,6 +1,6 @@
 # Load ~/.extra, ~/.bash_prompt, ~/.exports, ~/.aliases and ~/.functions
 # ~/.extra can be used for settings you don’t want to commit
-for file in ~/.{extra,bash_prompt,exports,aliases,functions,git_completion,git_extra,nginx}; do
+for file in ~/.{extra,bash_prompt,exports,aliases,functions,git_completion,git_extra,nginx,kali}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
